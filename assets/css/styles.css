@@ -1,44 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
-@font-face {
- font-family: Averta;
- src: url(https://cdna.iconscout.com/production/fonts/8e13912.eot);
- src: url(https://cdna.iconscout.com/production/fonts/8e13912.eot?#iefix)
-   format("embedded-opentype"),
-  url(https://cdna.iconscout.com/production/fonts/8a85d92.woff2) format("woff2"),
-  url(https://cdna.iconscout.com/production/fonts/a78139b.woff) format("woff"),
-  url(https://cdna.iconscout.com/production/fonts/0f7beaa.ttf)
-   format("truetype");
- font-weight: 700;
- font-style: normal;
- font-display: swap;
-}
-@font-face {
- font-family: Averta;
- src: url(https://cdna.iconscout.com/production/fonts/15b9023.eot);
- src: url(https://cdna.iconscout.com/production/fonts/15b9023.eot?#iefix)
-   format("embedded-opentype"),
-  url(https://cdna.iconscout.com/production/fonts/6ec7d3b.woff2) format("woff2"),
-  url(https://cdna.iconscout.com/production/fonts/ec11eb5.woff) format("woff"),
-  url(https://cdna.iconscout.com/production/fonts/8e14b7a.ttf)
-   format("truetype");
- font-weight: 500;
- font-style: normal;
- font-display: swap;
-}
-@font-face {
- font-family: Averta;
- src: url(https://cdna.iconscout.com/production/fonts/e6bd552.eot);
- src: url(https://cdna.iconscout.com/production/fonts/e6bd552.eot?#iefix)
-   format("embedded-opentype"),
-  url(https://cdna.iconscout.com/production/fonts/ef383a6.woff2) format("woff2"),
-  url(https://cdna.iconscout.com/production/fonts/c638ae0.woff) format("woff"),
-  url(https://cdna.iconscout.com/production/fonts/746b93b.ttf)
-   format("truetype");
- font-weight: 400;
- font-style: normal;
- font-display: swap;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -63,7 +24,7 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /*========== Font and typography ==========*/
-  --body-font: "Averta", sans-serif;
+  --body-font: "Sen", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -151,9 +112,7 @@ body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background: url(https://1.bp.blogspot.com/-QQ8UfbbXk8Y/XnB967bLOYI/AAAAAAAAN4M/INrvsgV8Vz8KeJKDdPKh2IsT9li5P1m9QCLcBGAsYHQ/s1600/bg-setup.png) bottom no-repeat;
-  background-size: cover;
-  background-repeat: no-repeat;
+  
   background-color: var(--body-color);
   color: var(--text-color);
 }
