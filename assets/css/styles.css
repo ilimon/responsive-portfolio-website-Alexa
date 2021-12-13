@@ -195,9 +195,10 @@ img {
 }
 .nav__logo {
   -webkit-background-clip: text;
-  background-image: linear-gradient(to right, #1de9b6, #2979ff);
+  background-image: linear-gradient(to top right, #1de9b6, #2979ff);
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+  font-family: var(--title-font);
 }
 
 .nav__logo:hover {
