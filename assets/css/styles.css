@@ -25,6 +25,7 @@
 
   /*========== Font and typography ==========*/
   --body-font: "Sen", sans-serif;
+  --title-font: "Jost", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -107,12 +108,13 @@ body.dark-theme{
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust:100%;
+  -webkit-tap-highlight-color:transparent;
 }
 body {
   margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  
   background-color: var(--body-color);
   color: var(--text-color);
 }
@@ -122,6 +124,7 @@ h2,
 h3,
 h4 {
   color: var(--title-color);
+  font-family: var(--title-font);
   font-weight: var(--font-semi-bold);
 }
 
