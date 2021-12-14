@@ -988,16 +988,8 @@ img {
 .footer__social{
     color: #FFF;
 }
-#container-c {
-  display: flex;
-  margin-bottom: var(--mb-2);
-  width: 160px;
-  overflow: hidden;
-}
 #circle {
   position: relative;
-  width: 100%;
-  padding-bottom: 100%;
   overflow: hidden;
 }
 #circle text {
