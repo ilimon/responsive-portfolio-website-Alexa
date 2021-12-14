@@ -893,30 +893,24 @@
               </div>
             </div>  
           </div>
-          <form action="https://formspree.io/f/moqrqnwy" class="contact__form grid" method="POST">
+            <form action="https://formspree.io/f/moqrqnwy" class="contact__form grid" method="POST">
             <div class="contact__inputs grid">
-              <div class="contact__content" required="required">
-                <label for="Name" class="contact__label">Name</label>
-                <input type="text" class="contact__input" />
+              <div class="contact__content">
+                <label for="exampleInputName">Name</label>
+                <input type="text" name="Name" id="exampleInputName" placeholder="Enter Name" required="required">
               </div>
-              <div class="contact__content" required="required">
-                <label for="Email" class="contact__label" name="_replyto">Email</label>
-                <input type="email" class="contact__input" />
+              <div class="contact__content">
+                <label for="exampleInputEmail1">Enter Email</label>
+                <input type="email" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" required="required">
               </div>
             </div>
             <div class="contact__content">
               <label for="Project" class="contact__label">Project (optional)</label>
               <input type="text" class="contact__input" />
             </div>
-            <div class="contact__content" required="required">
-              <label for="Message" class="contact__label">Message</label>
-              <textarea
-                name=""
-                id=""
-                cols="0"
-                rows="7"
-                class="contact__input"
-              ></textarea>
+            <div class="contact__content">
+            <label for="exampleInputMessage">Message</label>
+           <textarea type="text" name="pesan" id="exampleInputPesan" placeholder="Enter Message Here" cols="30" rows="7" required="required"></textarea>
             </div>
             <div>
               <button class="button button--flex" type="submit">
