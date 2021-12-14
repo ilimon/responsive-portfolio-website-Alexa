@@ -1006,7 +1006,7 @@ img {
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 2.8px;
-  fill: var(--white);
+  fill: #6579b5;
 }
 #circle svg {
   position: absolute;
