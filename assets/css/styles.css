@@ -1008,8 +1008,6 @@ img {
 }
 #circle svg {
   position: absolute;
-  left: -40%;
-  top: -40%;
   width: 180%;
   height: 180%;
   animation: rotate 7s linear infinite;
