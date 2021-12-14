@@ -989,8 +989,8 @@ img {
     color: #FFF;
 }
 #container-c {
-  margin-right: 0;
-  margin-left: auto;
+  display: flex;
+  margin-bottom: var(--mb-2);
   position: relative;
   width: 160px;
   overflow: hidden;
@@ -1006,7 +1006,7 @@ img {
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 2.8px;
-  fill: #6579b5;
+  fill: #e67971;
 }
 #circle svg {
   position: absolute;
