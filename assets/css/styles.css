@@ -988,6 +988,51 @@ img {
 .footer__social{
     color: #FFF;
 }
+#container-c {
+  margin-right: 0;
+  margin-left: auto;
+  position: relative;
+  width: 160px;
+  overflow: hidden;
+  display: inline-block;
+}
+#circle {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+#circle text {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2.8px;
+  fill: var(--white);
+}
+#circle svg {
+  position: absolute;
+  left: -40%;
+  top: -40%;
+  width: 180%;
+  height: 180%;
+  animation: rotate 7s linear infinite;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  animation-play-state: paused;
+}
+#container-c:hover #circle svg {
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  animation-play-state: running;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
+
 
 /*========== SCROLL UP ==========*/
 .scrollup{
