@@ -991,10 +991,8 @@ img {
 #container-c {
   display: flex;
   margin-bottom: var(--mb-2);
-  position: relative;
   width: 160px;
   overflow: hidden;
-  display: inline-block;
 }
 #circle {
   position: relative;
